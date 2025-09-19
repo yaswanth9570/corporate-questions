@@ -1,0 +1,9 @@
+m=int(input("enter the first number :"))
+n=int(input("enter the second number :"))
+x=0
+if m<=n:
+  for i in range(m,n+1):
+    x+=i**3
+  print(x)
+else:
+  print("invalid")
